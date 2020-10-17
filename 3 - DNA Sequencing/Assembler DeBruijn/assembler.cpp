@@ -15,6 +15,7 @@ using namespace std;
 #define fora(i, f, t) for(int i = f; i < t; i++)
 
 
+// Structure defining the graph Edge
 struct Edge{
     int read1, read2, overlap, mismat[2];
     Edge(int r1, int r2 = -1, int o = 0) :read1(r1), read2(r2), overlap(o)
