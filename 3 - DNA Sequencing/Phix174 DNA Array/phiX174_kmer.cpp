@@ -15,8 +15,7 @@
 using namespace std;
 typedef vector<vector<int>> Graph;
 
-///                            *** Eulerian cycle ****                   ///
-///                                ---------------                       ///
+///       Eulerian cycle
 int find_start_vertex(const map<int, int>& opts, vector<int>& last_ones){
     while(!last_ones.empty()){
         int start = last_ones.back();
