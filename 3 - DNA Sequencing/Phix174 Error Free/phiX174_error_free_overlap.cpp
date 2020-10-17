@@ -12,7 +12,7 @@ using namespace std;
 #define DATASIZE 1618
 #define fora(i, f, t) for(int i = f; i < t; i++)
 
-// find the max overlap between two reads with a minimum overlap of k
+// find the maximum overlap between two reads with a minimum overlap of k length
 int findMatchedLength(const string& read1, const string& read2){
     fora(i, 0, READSIZE){
         int k = i;
