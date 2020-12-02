@@ -1,9 +1,18 @@
 # DNA Analysis
-The Dna is a comple substance whose understanding requires its analysis
+DNA or deoxyribonucleic acid is a long molecule that contains our unique genetic code. Like a recipe book it holds the instructions for making all the proteins in our bodies
+Deoxyribonucleic acid (/diːˈɒksɪˌraɪboʊnjuːˌkliːɪk, -ˌkleɪ-/ (About this soundlisten);[1] DNA) is a molecule composed of two polynucleotide chains that coil around each other to form a double helix carrying genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids. Alongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life
+### The DNA is a comple substance whose understanding requires its analysis
+DNA Analysis is the process of determining an individual's DNA characteristics
+![diagram](img/dna.png)
 
+# Analysis results
+Here are someof the analysis results.
+<br>
 
 ## 1. Error Proporations in DNA
-The Dna has error defined using Phred 33
+The DNA has quality values define using Phred 33 encoding. These values pertain to the confidence score of the DNA reads, i.e. how likely are these values to be true
+The graph reflectig them visually is a excellent way of demarcating bad quality readsfrom good quality reads.
+Additionally, once determined, if the reads are of what category, the kind of sequencing to be used n them can be determined
 
 ![diagram](img/errorProportion.png)
 <br>
@@ -15,9 +24,20 @@ The Dna has error defined using Phred 33
 
 ## 1. Error Analysis for BAses in DNA
 The Dna has 4 bases:
+- Adenine
+- Thyamie
+- Guanine
+- Cytosine
+
+Finding and visualizing errors and qualities in these four bases separately will reveal interesting patterns.
+<br>
+
+One nice obsrvaton from the four quality graphs is that these grahs seem similar, hence proving that the original PCR process used to get the DNA read is a reliable, repeatable and reproducible process
+
+Another observation is that even that they seem similar, they are actually different. Their respective points are different, thereby having overall differet average error line
 
 ### Base A 
-The Adenine is a base i DNA
+The Adenine is a base in DNA
 
 ![diagram](img/ErrorInBaseA.png)
 <br>
@@ -25,8 +45,10 @@ The Adenine is a base i DNA
 <hr>
 
 <br>
+
+
 ### Base T
-The Adenine is a base i DNA
+The Thyamine is a base in DNA
 
 ![diagram](img/ErrorInBaseT.png)
 <br>
@@ -34,8 +56,9 @@ The Adenine is a base i DNA
 <hr>
 
 <br>
+
 ### Base G 
-The Adenine is a base i DNA
+The Guanine is a base in DNA
 
 ![diagram](img/ErrorInBaseG.png)
 <br>
@@ -43,8 +66,9 @@ The Adenine is a base i DNA
 <hr>
 
 <br>
+
 ### Base C 
-The Adenine is a base i DNA
+The Cytosine is a base in DNA
 
 ![diagram](img/ErrorInBaseC.png)
 <br>
@@ -55,7 +79,9 @@ The Adenine is a base i DNA
 <br>
 
 ## 3. GC Ratio comparison
-The comparison of GC content between Actual DNA and Calculated DNA
+The comparison of GC content between Actual DNA and Calculated DNA. This comparison shows 2 things:
+- The sequenced DNA line becomes almost straight, proving that the DNA so sequenced is astable DNA. Hence the sequencing pocess worked fine, and is a trustworthy proces
+- The Actual and Found DNA lines coincide as the DNAprogresses, proving that the sequenced DNA has a good level of genome coverage
 
 ![diagram](img/GCcontentComparison.png)
 <br>
@@ -66,7 +92,8 @@ The comparison of GC content between Actual DNA and Calculated DNA
 <br>
 
 ## 4. DNA Binary Signal Analysis
-The DNA frame Buffer
+The DNA BInary Signal Analysis, is a binary signal plot of KMP algorithm output for different length of subsequences from Actual DNA checked against Found DNA
+This type of analysis will be used to findthe ocation of genomes, similarity between Actual DNA and Found DNA and the changes of pattern matching on increase on the subsequence length
 
 ![diagram](img/BinaryDNAAnalysis.png)
 <br>
