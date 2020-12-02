@@ -5,7 +5,7 @@ The Dna is a comple substance whose understanding requires its analysis
 ## 1. Error Proporations in DNA
 The Dna has error defined using Phred 33
 
-![diagram](errorProportion.png)
+![diagram](img/errorProportion.png)
 <br>
 
 <hr>
