@@ -1,0 +1,106 @@
+1: DNA Error Proportion
+
+set terminal png
+set output 'errorProportion.png'
+set ylabel "Error Values"
+set xlabel "DNA Contigs"
+plot [x=0:50] [y=-1000:20000] 'errdata.dat' title 'Error Proportion' lt 9 lw 3 lc 4 with line
+
+
+2: DNA Buffer Frame
+
+set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+set output 'DNABufferFrame.png'
+set dummy u, v
+set samples 51, 51
+set isosamples 21, 21
+set style data lines
+set title "DNA buffer frame" 
+set xlabel "X axis" 
+set xlabel  offset character -3, -2, 0 font "" textcolor lt -1 norotate
+set xrange [ -1.00000 : 1.00000 ] noreverse nowriteback
+set x2range [ * : * ] noreverse writeback
+set ylabel "Y axis" 
+set ylabel  offset character 3, -2, 0 font "" textcolor lt -1 rotate
+set yrange [ -1.00000 : 1.00000 ] noreverse nowriteback
+set y2range [ * : * ] noreverse writeback
+set zlabel "Z axis" 
+set zlabel  offset character -5, 0, 0 font "" textcolor lt -1 norotate
+set zrange [ * : * ] noreverse writeback
+set cbrange [ * : * ] noreverse writeback
+set rrange [ * : * ] noreverse writeback
+NO_ANIMATION = 1
+## Last datafile plotted: "$grid"
+splot [x=-3:3] [y=-3:3] sin(x) * cos(y)
+
+
+3: Plots For Error in Bases
+
+set terminal png size 1000,600
+set output 'ErrorInBaseA.png'
+set ylabel "Average error per read "
+set xlabel "DNA Reads"
+plot [x=0:1650] [y=0:45] 'ErrorInBaseA.dat' title 'Error In Base A' lt 9 lc 4 with line
+
+
+
+set terminal png size 1000,600
+set output 'ErrorInBaseT.png'
+set ylabel "Average error per read "
+set xlabel "DNA Reads"
+plot [x=0:1650] [y=0:45] 'ErrorInBaseT.dat' title 'Error In Base T' lt 9 lc 9 with line
+
+
+
+set terminal png size 1000,600
+set output 'ErrorInBaseC.png'
+set ylabel "Average error per read "
+set xlabel "DNA Reads"
+plot [x=0:1650] [y=0:45] 'ErrorInBaseC.dat' title 'Error In Base C' lt 9 lc 14 with line
+
+
+
+set terminal png size 1000,600
+set output 'ErrorInBaseG.png'
+set ylabel "Average error per read "
+set xlabel "DNA Reads"
+plot [x=0:1650] [y=0:45] 'ErrorInBaseG.dat' title 'Error In Base G' lt 9 lc 10 with line
+
+
+
+
+3: GC comparison
+
+
+set terminal png size 1000,400
+set output 'GCcontentComparison.png'
+set ylabel "% GC content per unit surface DNA"
+set xlabel "DNA Contig"
+set title 'CG content Comparison'
+plot [x=-50:6000] [y=0:100] 'gcInFound.dat' lt 9 lc 10 with line , 'gcInActual.dat' lt 1 lc 15 with line
+
+
+
+4: Chromatic Dichromation
+
+
+set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 600
+set output 'Chromatic Dichromation.png'
+set contour
+set isosamples 50
+set isosamples 50
+set hidden3d
+set cntrparam levels 0
+set title 'Chromatic Dichromation'
+splot sin(sqrt(x**2+y**2))
+
+
+
+5: DNA BInary
+
+set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 1000, 800
+set output 'BinaryDNAAnalysis.png'
+set yrange [-0.5:11]
+set title 'DNA Binary Analysis'
+set key right top Left title 'Legend' box 3
+plot 'YesOrNo12.dat' with line lc 4, 'YesOrNo25.dat' u ($1+1.5) with line, 'YesOrNo50.dat' u ($1+3) with line, 'YesOrNo100.dat' u ($1+4.5) with line lc 15, 'YesOrNo150.dat' u ($1+6) with line lc 14, 'YesOrNo200.dat' u ($1+7.5) with line lc 13 
