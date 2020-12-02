@@ -65,7 +65,33 @@ The comparison of GC content between Actual DNA and Calculated DNA
 
 <br>
 
-## 3. DNA frame Buffer
+## 4. DNA Binary Signal Analysis
+The DNA frame Buffer
+
+![diagram](img/BinaryDNAAnalysis.png)
+<br>
+
+<hr>
+<hr>
+
+<br>
+
+
+
+## 5. DNA Chromatic Dichromation
+The DNA frame Buffer
+
+![diagram](img/ChromaticDichromation.png)
+<br>
+
+<hr>
+<hr>
+
+<br>
+
+
+
+## 6. DNA frame Buffer
 The DNA frame Buffer
 
 ![diagram](img/DNABufferFrame.png)
