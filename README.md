@@ -9,7 +9,7 @@ DNA or deoxyribonucleic acid is a long molecule that contains our unique genetic
 Deoxyribonucleic acid (/diːˈɒksɪˌraɪboʊnjuːˌkliːɪk, -ˌkleɪ-/ (About this soundlisten);[1] DNA) is a molecule composed of two polynucleotide chains that coil around each other to form a double helix carrying genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids. Alongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life
 ### The DNA is a comple substance whose understanding requires its analysis
 DNA Analysis is the process of determining an individual's DNA characteristics
-![diagram]('5 - Reports'/img/dna.png)
+![diagram](img/dna.png)
 
 ## Analysis results
 Here are someof the analysis results.
@@ -20,7 +20,7 @@ The DNA has quality values define using Phred 33 encoding. These values pertain 
 The graph reflectig them visually is a excellent way of demarcating bad quality readsfrom good quality reads.
 Additionally, once determined, if the reads are of what category, the kind of sequencing to be used n them can be determined
 
-![diagram]('5-Reports'/img/errorProportion.png)
+![diagram](img/errorProportion.png)
 <br>
 
 <hr>
@@ -45,7 +45,7 @@ Another observation is that even that they seem similar, they are actually diffe
 #### Base A 
 The Adenine is a base in DNA
 
-![diagram]('5-Reports'/img/ErrorInBaseA.png)
+![diagram](img/ErrorInBaseA.png)
 <br>
 
 <hr>
@@ -56,7 +56,7 @@ The Adenine is a base in DNA
 #### Base T
 The Thyamine is a base in DNA
 
-![diagram]('5-Reports'/img/ErrorInBaseT.png)
+![diagram](img/ErrorInBaseT.png)
 <br>
 
 <hr>
@@ -66,7 +66,7 @@ The Thyamine is a base in DNA
 #### Base G 
 The Guanine is a base in DNA
 
-![diagram]('5-Reports'/img/ErrorInBaseG.png)
+![diagram](img/ErrorInBaseG.png)
 <br>
 
 <hr>
@@ -76,7 +76,7 @@ The Guanine is a base in DNA
 #### Base C 
 The Cytosine is a base in DNA
 
-![diagram]('5-Reports'/img/ErrorInBaseC.png)
+![diagram](img/ErrorInBaseC.png)
 <br>
 
 <hr>
@@ -89,7 +89,7 @@ The comparison of GC content between Actual DNA and Calculated DNA. This compari
 - The sequenced DNA line becomes almost straight, proving that the DNA so sequenced is astable DNA. Hence the sequencing pocess worked fine, and is a trustworthy proces
 - The Actual and Found DNA lines coincide as the DNAprogresses, proving that the sequenced DNA has a good level of genome coverage
 
-![diagram]('5-Reports'/img/GCcontentComparison.png)
+![diagram](img/GCcontentComparison.png)
 <br>
 
 <hr>
@@ -101,7 +101,7 @@ The comparison of GC content between Actual DNA and Calculated DNA. This compari
 The DNA BInary Signal Analysis, is a binary signal plot of KMP algorithm output for different length of subsequences from Actual DNA checked against Found DNA
 This type of analysis will be used to findthe ocation of genomes, similarity between Actual DNA and Found DNA and the changes of pattern matching on increase on the subsequence length
 
-![diagram]('5-Reports'/img/BinaryDNAAnalysis.png)
+![diagram](img/BinaryDNAAnalysis.png)
 <br>
 
 <hr>
@@ -114,7 +114,7 @@ This type of analysis will be used to findthe ocation of genomes, similarity bet
 ### 5. DNA Chromatic Dichromation
 The DNA frame Buffer
 
-![diagram]('5-Reports'/img/ChromaticDichromation.png)
+![diagram](img/ChromaticDichromation.png)
 <br>
 
 <hr>
@@ -127,7 +127,7 @@ The DNA frame Buffer
 ### 6. DNA frame Buffer
 The DNA frame Buffer
 
-![diagram]('5-Reports'/img/DNABufferFrame.png)
+![diagram](img/DNABufferFrame.png)
 <br>
 
 <hr>
