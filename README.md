@@ -9,7 +9,7 @@ DNA or deoxyribonucleic acid is a long molecule that contains our unique genetic
 Deoxyribonucleic acid (/diːˈɒksɪˌraɪboʊnjuːˌkliːɪk, -ˌkleɪ-/ (About this soundlisten);[1] DNA) is a molecule composed of two polynucleotide chains that coil around each other to form a double helix carrying genetic instructions for the development, functioning, growth and reproduction of all known organisms and many viruses. DNA and ribonucleic acid (RNA) are nucleic acids. Alongside proteins, lipids and complex carbohydrates (polysaccharides), nucleic acids are one of the four major types of macromolecules that are essential for all known forms of life
 ### The DNA is a comple substance whose understanding requires its analysis
 DNA Analysis is the process of determining an individual's DNA characteristics
-![diagram]('5-Reports'/img/dna.png)
+![diagram]('5 - Reports'/img/dna.png)
 
 ## Analysis results
 Here are someof the analysis results.
