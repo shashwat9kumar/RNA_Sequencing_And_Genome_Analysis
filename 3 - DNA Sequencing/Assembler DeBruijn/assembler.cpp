@@ -9,7 +9,7 @@
 using namespace std;
 
 #define K_MER 12
-#define MIN_OVERLAP 1
+#define MIN_OVERLAP 1 
 #define READSIZE 100
 #define DATASIZE 33609
 #define fora(i, f, t) for(int i = f; i < t; i++)
@@ -183,4 +183,4 @@ int main(int argc, char** argv){
     cout<<genome<<endl;
 
     return 0;
-}
+} 
